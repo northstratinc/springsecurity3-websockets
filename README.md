@@ -49,6 +49,8 @@ like to customize the behavior of this bean, simply write your own implementatio
 The only required property in the default implementation above is the `interceptDestinationMap`. This is a map of message
 matching expressions to [Spring Security Expressions](https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html).
 
+#### Message Matcher Expressions
+
 The message matching expressions are much like the expressions used to match URLs in classic Spring Security, only they
  are matching websocket destinations. Just like the Spring Security Intercept URL map, order matters. Message patterns
  higher in the list take precedence over lower ones. Also like the Spring Security Intercept URL map, wildcards (**) are
