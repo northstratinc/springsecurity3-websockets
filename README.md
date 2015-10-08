@@ -20,7 +20,7 @@ After it is built/installed, you can add it to your dependency list:
 <dependency>
     <groupId>com.northstrat</groupId>
     <artifactId>springsecurity3-websockets</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
 </dependency>
 ```
 
