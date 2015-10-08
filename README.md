@@ -8,13 +8,7 @@ provides the ability to secure/authorize each message that is sent to the server
   
 ## Usage
 
-Until this is added to the Central Maven Repository, you will need to clone this repository and build the plugin yourself:
-
-```
-mvn clean install
-```
-
-After it is built/installed, you can add it to your dependency list:
+This plugin is available in the Maven Central Repository. Simply add the following to your pom.xml
 
 ```xml
 <dependency>
